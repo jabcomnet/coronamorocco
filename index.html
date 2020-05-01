@@ -410,4 +410,29 @@
 
         
     
+    
+            var marker_4edc68c4e4474db8ab9a0d05771a8bf0 = L.marker(
+                [34.014900000000004, -6.7907],
+                {}
+            ).addTo(map_804e916a67ab475bb055333873ff460e);
+        
+    
+            var icon_637bd79b52bb459eb9681f55cf30ea6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4edc68c4e4474db8ab9a0d05771a8bf0.setIcon(icon_637bd79b52bb459eb9681f55cf30ea6e);
+        
+    
+        var popup_e96fd0c3e56c469f9fee3b739a9a7859 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d44241937a4b4bc9be391c3ec4cc5e6c = $(`<div id="html_d44241937a4b4bc9be391c3ec4cc5e6c" style="width: 100.0%; height: 100.0%;">Nouveau Infecté(e) مصاب جديد </div>`)[0];
+            popup_e96fd0c3e56c469f9fee3b739a9a7859.setContent(html_d44241937a4b4bc9be391c3ec4cc5e6c);
+        
+
+        marker_4edc68c4e4474db8ab9a0d05771a8bf0.bindPopup(popup_e96fd0c3e56c469f9fee3b739a9a7859)
+        ;
+
+        
+    
 </script>
